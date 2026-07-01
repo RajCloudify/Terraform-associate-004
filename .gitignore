@@ -1,0 +1,31 @@
+# Core Terraform system directories
+.terraform/
+**/.terraform/*
+
+# State files containing sensitive infrastructure details
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variables files containing passwords, keys, and environment secrets
+*.tfvars
+*.tfvars.json
+
+# Override files used for local modifications
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control
+# !example_override.tf
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+#Terraform Lock hcl 
+.terraform.lock.hcl
