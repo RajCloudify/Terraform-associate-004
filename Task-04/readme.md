@@ -7,7 +7,7 @@ OVERVIEW
 In this lab, you will expand your VPC configuration by adding multiple interconnected resources. You'll learn how Terraform manages dependencies between resources and how to structure more complex configurations. We'll create subnets, route tables, and security groups, all of which are free resources in AWS.
 
 Note: AWS credentials are required for this lab and must be configured as environment variables.
-
+ 
 LAB PREREQUISITES
 -----------------
   Set your AWS credentials as environment variables:
@@ -32,7 +32,7 @@ LAB STEPS
         type        = string
         default     = "10.0.1.0/24"
       }
-    
+
       variable "private_subnet_cidr" {
         description = "CIDR block for private subnet"
         type        = string
