@@ -2,7 +2,7 @@
 Migrating State to a Remote S3 Backend with State Locking
 =================================================================
 
-OVERVIEW
+OVERVIEW 
 --------
 
 In this lab, you will migrate Terraform state from the local backend to a remote S3 backend with native state locking enabled. You will inspect the local state file, provision a state bucket, migrate state with terraform init -migrate-state, strand and repair a state lock with terraform force-unlock, and migrate state back to local before cleaning up.
