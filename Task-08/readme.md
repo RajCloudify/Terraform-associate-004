@@ -355,7 +355,7 @@ UNDERSTANDING COUNT VS FOR_EACH
     - Supports non-uniform configurations via map of objects
     - Best for: resources that differ in configuration or need
       stable identity
-
+ 
   When to use count:
     - Creating multiple identical resources (e.g., N worker nodes)
     - Simple on/off toggles (count = var.enabled ? 1 : 0)
