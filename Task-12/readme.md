@@ -418,7 +418,7 @@ LAB STEPS
         role_description  = "Application role"
         trusted_principal = "ec2.amazonaws.com"
         policy_arns = {
-          s3_read_only = module.policies["s3-read-only"].policy_arn
+          s3_read_only = module.policies["s3-read-only"].policy_arn #update here 
         }
       }
 
@@ -429,7 +429,7 @@ LAB STEPS
         role_description  = "Monitoring role"
         trusted_principal = "lambda.amazonaws.com"
         policy_arns = {
-          cloudwatch_write = module.policies["cloudwatch-write"].policy_arn
+          cloudwatch_write = module.policies["cloudwatch-write"].policy_arn #update here
         }
       }
 
